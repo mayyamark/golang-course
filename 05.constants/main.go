@@ -3,7 +3,7 @@ package main
 import "fmt"
 
 func main() {
-	const pi = 3.14 // the value should be available on run time => can't be the result of a function
+	const pi = 3.14 // the value should be available on COMPILE time (not on run time) => can't be the result of a function
 	fmt.Println(pi) // 3.14
 	// pi = 3.142 => error
 
